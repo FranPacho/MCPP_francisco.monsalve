@@ -52,10 +52,10 @@ Cyclical behavior. Line represents presidential elections
 <img src="Images/regulations_year.png">
 
 
-<img src="Images/regulation_weekday.png>
+<img src="Images/regulation_weekday.png">
 
 
-<img src="Images/lexical_dispersion.PNG>
+<img src="Images/lexical_dispersion.PNG">
 
 --- 
 
