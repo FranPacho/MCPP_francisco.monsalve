@@ -48,7 +48,7 @@ Cyclical behavior. Line represents presidential elections
 
 Relevant and non-relevant regulation. Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
 Lexical Dispersion Plot
-<img src="Images/lexial_dispersion.png">
+<img src="Images/lexical_dispersion.png">
 
 
 
