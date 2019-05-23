@@ -42,23 +42,19 @@ For this purpose I used:
 Total of 3706 regulations
 3645 Decretos
 61 Resoluciones
+Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
 
 Cyclical behavior. Line represents presidential elections
+
 <img src="Images/regulations_line.png">
 
 
-Positive tendency of regulations every year
 <img src="Images/regulations_year.png">
 
 
-Slightly higher regulation on Thursdays
 <img src="Images/regulation_weekday.png>
 
 
-Relevant and non-relevant regulation. Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
-
-
-Lexical Dispersion Plot
 <img src="Images/lexical_dispersion.PNG>
 
 --- 
