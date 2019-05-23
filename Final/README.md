@@ -46,6 +46,10 @@ Total of 3706 regulations
 Cyclical behavior. Line represents presidential elections
 <img src="Images/regulations_line.png">
 
+Positive tendency of regulations every year
+<img src="Images/regulations_year.png">
+
+
 Relevant and non-relevant regulation. Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
 Lexical Dispersion Plot
 <img src="Images/lexical_dispersion.png">
