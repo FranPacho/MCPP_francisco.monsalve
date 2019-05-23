@@ -1,94 +1,40 @@
 # Readme File of Final Project 
 
 
-# Regulation on Colombia 
+# Analysis of Regulation in Colombia, January 2016 - April 2019
 
-Regulation is very important on the economic development of a Country (OCDE)...
 
 ## Description of Project
 
-Web Scraping of * [Presidential web page](https://dapre.presidencia.gov.co/normativa) to abotain national regulation (Decretos, Resoluciones) from January of 2016 to April of 2019.
+Regulation is one of the key factors for economic growth and development in a Country, and it as important as monetary and fiscal policy according to the [OECD](https://www.oecd.org/publications/oecd-regulatory-policy-outlook-2015-9789264238770-en.htm). 
+Since Colombia is now part of the OECD the application of international standards is necessary, therefore, the "Grupo de Política de Mejora Regulatoria" (MR) from the National Department of Planning ([DNP](https://www.dnp.gov.co/programas/Mejora%20Regulatoria/Paginas/Mejora-Regulatoria.aspx)) has the goal of providing support to the public regulators to improve the quality and reduce the quantity of ongoing and new regulation.
+
+For my analysis, I will consider the available regulation from the presidency [Webpage](https://dapre.presidencia.gov.co/normativa). 
+Web Scraping of * [Presidential web page](https://dapre.presidencia.gov.co/normativa) to obtain national regulation (e,g. Decretos, Resoluciones) from January of 2016 to April of 2019.
+
+From this information I would like to answer the following questions:
+•    Has the number of regulation increased or decreased? I would like to graph this behavior and check the dates with the highest number of regulations. Also, I want to compare the number of regulation to the political cycle and see whether there is some similar behavior, particularly to the presidential elections in May of 2018.
+•    Has there been any change since the implementation of the MR on the number of regulations? Clearly this policy takes time to have an impact since public officers need to be trained and taught; however, I want to check if there is a short term difference.
+•    Is it "relevant" regulation? Since Decretos and Resoluciones are used for regulations, but also to appoint a new politician and accept resignations, I want to focus on the "relevant" ones. By relevant I mean that it actually has an impact on the economy through new policies or modifications of existing regulation. 
+
 
 ### Using Python (Jupyter Notebook)
+The Webpage organizes the Decretos by each month of the year and in a different link all the Resoluciones. 
+I have a total of 41 periods to analyze, which gives me a total of 3706 regulations in total.
 
-Used:
-- BeautfulSoup for Web Scraping
-- Regex to get information from the scraping
-- Pandas to build a DataFrame (Database)
-- NLTK to analyse relevant regulation
+For this purpose I used:
+1. Scraping
+    - BeautfulSoup and Regex for Web Scraping through the different links 
+    - Python Code is available ([1-Scrpaing](https://github.com/FranPacho/MCPP_francisco.monsalve/blob/master/Final/I-%20Web%20Scraping%20(Links%20presidencia).ipynb)
+2. Pandas
+    - I used Pandas library to build a DataFrame with the links, title, and date
+    - Python Code is available ([2-Pandas](https://github.com/FranPacho/MCPP_francisco.monsalve/blob/master/Final/II.%20Regex%20y%20Pandas%20-%20An%C3%A1lisis%20Decretos.ipynb)
+    - Again with Pandas, I analyze the descriptions I could obtain from 1,  to analyze relevant regulation ([3-Pandas](https://github.com/FranPacho/MCPP_francisco.monsalve/blob/master/Final/III.%20Pandas%20-%20An%C3%A1lisis%20del%20dataframe.ipynb)
+    - With the final information, I use NLTK for lexical dispersion and frequency of words ([4-Nltk])
 
-```
-Give examples
-```
 
-### Installing
+### Main Findings
 
-A step by step series of examples that tell you how to get a development env running
+Total of 3706 regulations
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Francisco Monsalve** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
