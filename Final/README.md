@@ -49,10 +49,12 @@ Cyclical behavior. Line represents presidential elections
 Positive tendency of regulations every year
 <img src="Images/regulations_year.png">
 
+Slightly higher regulation on Thursdays
+<img src="Images/regulation_weekday.png>
 
 Relevant and non-relevant regulation. Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
 Lexical Dispersion Plot
-<img src="Images/lexical_dispersion.png">
+<img src="Images/lexical_dispersion.PNG>
 
 
 
