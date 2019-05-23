@@ -43,7 +43,7 @@ Total of 3706 regulations
 3645 Decretos
 61 Resoluciones
 Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
-
+1-Nov-2010 and 10-Nov-2018 were the dates with most regulations in a single day, both with 50 Decretos
 Cyclical behavior. Line represents presidential elections
 
 <img src="Images/regulations_line.png">
