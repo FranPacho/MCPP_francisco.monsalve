@@ -1,6 +1,7 @@
 # Francisco Monsalve
 Economics, Universidad del Rosario
-Master in Economics of public Policy
+
+Masters in Economics of public Policy
 
 # MCPP
 
