@@ -10,9 +10,9 @@
 
 ## Description of Project
 
-Regulation is one of the key factors for economic growth and development in a Country, and it as important as monetary and fiscal policy according to the OECD. Since Colombia is now part of the OECD the application of international standards is necessary, therefore, the "Grupo de Política de Mejora Regulatoria" (MR) from the National Department of Planning (DNP) has the goal of providing support to the public regulators to improve the quality and reduce the quantity of ongoing and new regulation.
+Regulation is one of the key factors for economic growth and development in a Country, and it as important as monetary and fiscal policy according to the OECD. Since Colombia is now part of the OECD the application of international standards is necessary, therefore, the "Grupo de Política de Mejora Regulatoria" (MR) from the National Department of Planning ([DNP](https://www.dnp.gov.co/programas/Mejora%20Regulatoria/Paginas/Mejora-Regulatoria.aspx)) has the goal of providing support to the public regulators to improve the quality and reduce the quantity of ongoing and new regulation.
 
-For my analysis, I will consider the available regulation from the presidency Webpage. Web Scraping of Presidential web page to obtain national regulation (e,g. Decretos, Resoluciones) from January of 2016 to April of 2019.
+For my analysis, I will consider the available regulation from the presidency [Webpage](https://id.presidencia.gov.co/Paginas/presidencia.aspx). Web Scraping of Presidential web page to obtain national regulation (e,g. Decretos, Resoluciones) from January of 2016 to April of 2019.
 
 From this information, I would like to answer the following questions: 
     - Has the number of regulation increased or decreased? I would like to graph this behavior and check the dates with the highest           number of regulations. Also, I want to compare the number of regulation to the political cycle, particularly to the presidential         elections(May of 2018). 
