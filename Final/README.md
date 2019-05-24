@@ -15,9 +15,12 @@ Regulation is one of the key factors for economic growth and development in a Co
 For my analysis, I will consider the available regulation from the presidency [Webpage](https://id.presidencia.gov.co/Paginas/presidencia.aspx). Web Scraping of Presidential web page to obtain national regulation (e,g. Decretos, Resoluciones) from January of 2016 to April of 2019.
 
 From this information, I would like to answer the following questions: 
-    - Has the number of regulation increased or decreased? I would like to graph this behavior and check the dates with the highest           number of regulations. Also, I want to compare the number of regulation to the political cycle, particularly to the presidential         elections(May of 2018). 
-    - Has there been any change since the implementation of the MR on the number of regulations? Clearly this policy takes time to have       an impact since public officers need to be trained and taught; however, I want to check if there is a short term difference. 
-    - How much of the regulation is "relevant"? Since Decretos and Resoluciones are used for regulations, but also to appoint a new           politician and accept resignations, I want to focus on the "relevant" ones. By relevant I mean that it actually has an impact on         the economy through new policies or modifications of existing regulation.
+
+-   Has the number of regulation increased or decreased? I would like to graph this behavior and check the dates with the highest           number of regulations. Also, I want to compare the number of regulation to the political cycle, particularly to the presidential         elections(May of 2018). 
+
+-   Has there been any change since the implementation of the MR on the number of regulations? Clearly this policy takes time to have       an impact since public officers need to be trained and taught; however, I want to check if there is a short term difference. 
+    
+-   How much of the regulation is "relevant"? Since Decretos and Resoluciones are used for regulations, but also to appoint a new           politician and accept resignations, I want to focus on the "relevant" ones. By relevant I mean that it actually has an impact on         the economy through new policies or modifications of existing regulation.
 
 
 ### Using Python (Jupyter Notebook)
