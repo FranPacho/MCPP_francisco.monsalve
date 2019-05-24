@@ -10,21 +10,18 @@
 
 ## Description of Project
 
-Regulation is one of the key factors for economic growth and development in a Country, and it as important as monetary and fiscal policy according to the [OECD](https://www.oecd.org/publications/oecd-regulatory-policy-outlook-2015-9789264238770-en.htm). 
-Since Colombia is now part of the OECD the application of international standards is necessary, therefore, the "Grupo de Política de Mejora Regulatoria" (MR) from the National Department of Planning ([DNP](https://www.dnp.gov.co/programas/Mejora%20Regulatoria/Paginas/Mejora-Regulatoria.aspx)) has the goal of providing support to the public regulators to improve the quality and reduce the quantity of ongoing and new regulation.
+Regulation is one of the key factors for economic growth and development in a Country, and it as important as monetary and fiscal policy according to the OECD. Since Colombia is now part of the OECD the application of international standards is necessary, therefore, the "Grupo de Política de Mejora Regulatoria" (MR) from the National Department of Planning (DNP) has the goal of providing support to the public regulators to improve the quality and reduce the quantity of ongoing and new regulation.
 
-For my analysis, I will consider the available regulation from the presidency [Webpage](https://dapre.presidencia.gov.co/normativa). 
-Web Scraping of [Presidential web page](https://dapre.presidencia.gov.co/normativa) to obtain national regulation (e,g. Decretos, Resoluciones) from January of 2016 to April of 2019.
+For my analysis, I will consider the available regulation from the presidency Webpage. Web Scraping of Presidential web page to obtain national regulation (e,g. Decretos, Resoluciones) from January of 2016 to April of 2019.
 
-From this information I would like to answer the following questions:
-    - Has the number of regulation increased or decreased? I would like to graph this behavior and check the dates with the highest number of regulations. Also, I want to compare the number of regulation to the political cycle, particularly to the presidential elections(May of 2018).
-    - Has there been any change since the implementation of the MR on the number of regulations? Clearly this policy takes time to have an impact since public officers need to be trained and taught; however, I want to check if there is a short term difference.
-    - How much of the regulation is "relevant"? Since Decretos and Resoluciones are used for regulations, but also to appoint a new politician and accept resignations, I want to focus on the "relevant" ones. By relevant I mean that it actually has an impact on the economy through new policies or modifications of existing regulation. 
+From this information, I would like to answer the following questions: 
+    - Has the number of regulation increased or decreased? I would like to graph this behavior and check the dates with the highest           number of regulations. Also, I want to compare the number of regulation to the political cycle, particularly to the presidential         elections(May of 2018). 
+    - Has there been any change since the implementation of the MR on the number of regulations? Clearly this policy takes time to have       an impact since public officers need to be trained and taught; however, I want to check if there is a short term difference. 
+    - How much of the regulation is "relevant"? Since Decretos and Resoluciones are used for regulations, but also to appoint a new           politician and accept resignations, I want to focus on the "relevant" ones. By relevant I mean that it actually has an impact on         the economy through new policies or modifications of existing regulation.
 
 
 ### Using Python (Jupyter Notebook)
-The presidetial web page organizes the Decretos by each month of the year and in a different link all the Resoluciones. 
-I have a total of 41 periods to analyze, which gives me a total of 3706 regulations.
+The presidential web page organizes the Decretos by each month of the year and in a different link all the Resoluciones. I have a total of 41 periods to analyze, which gives me a total of 3706 regulations.
 
 For this purpose I used:
 1. Scraping
@@ -39,13 +36,11 @@ For this purpose I used:
 
 ### Main Findings
 
-Total of 3706 regulations
-3645 Decretos
-61 Resoluciones
-Using key words to determine relevance of regulation, only around 35% of regulation is "relevant"
-1-Nov-2010 and 10-Nov-2018 were the dates with most regulations in a single day, both with 50 Decretos
-Cyclical behavior. Line represents presidential elections
-
+    - Total of 3706 regulations 3645 Decretos 61 Resoluciones 
+    - Using keywords to determine the relevance of regulation, only around 35% of regulation is "relevant" 
+    - 1-Nov-2010 and 10-Nov-2018 were the dates with most regulations in a single day, both with 50 Decretos 
+    - Cyclical behavior. The line represents presidential elections
+    
 <img src="Images/regulations_line.png">
 
 
